@@ -1,0 +1,197 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgb(0, 1, 43);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo i {
+    margin-right: 10px;
+}
+
+/* Page Title Styles */
+.page-title {
+    background-color: rgb(0, 1, 43);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Description Section Styles */
+.description-section {
+    background-color: rgb(0, 1, 43);
+    color: white;
+    padding: 3rem 0;
+}
+
+/* Highlights Section */
+.highlights-section {
+    background-color: #e5ecfb;
+    padding: 3rem 0;
+}
+
+.highlight-video-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Abstracts Section */
+.abstracts-section {
+    background-color: #e5ecfb;
+    padding: 3rem 0;
+}
+
+.abstracts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.abstract-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.abstract-content {
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.abstract-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.view-paper-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: rgb(0, 1, 43);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.view-paper-btn:hover {
+    background-color: rgb(0, 1, 60);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles */
+.heading {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(0, 1, 43);
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.heading i {
+    margin-right: 10px;
+    color: gold;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: rgb(0, 1, 43);
+    color: white;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-icons {
+    margin-top: 1.5rem;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.icon-container a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.icon-container a:hover {
+    color: gold;
+}
+
+/* Enhanced Responsive Design */
+@media (max-width: 1024px) {
+    .abstract-content {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    .abstract-content {
+        max-width: 100%;
+    }
+    
+    .heading {
+        font-size: 2em;
+    }
+    
+    .highlight-video-container {
+        aspect-ratio: 16/9;
+    }
+}
