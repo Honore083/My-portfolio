@@ -50,6 +50,11 @@ body {
     padding: 3rem 0;
 }
 
+.description-section p {
+    margin-bottom: 1.5rem;
+}
+
+
 /* Media Section Styles */
 .media-section {
     background-color: #e5ecfb;
