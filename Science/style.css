@@ -50,6 +50,10 @@ body {
     padding: 3rem 0;
 }
 
+.description-section p {
+    margin-bottom: 1.5rem;
+}
+
 * New Highlights Section */
 .highlights-section {
     background-color: #e5ecfb;
