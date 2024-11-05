@@ -158,6 +158,15 @@ body {
     margin-top: 1rem;
     font-size: 1.2rem;
     color: rgb(0, 1, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.role-model-item h3 i {
+    color: gold;
+    font-size: 1rem;
 }
 
 /* Updated Media Grid Styles */
