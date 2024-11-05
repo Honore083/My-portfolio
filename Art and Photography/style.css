@@ -50,6 +50,10 @@ body {
     padding: 3rem 0;
 }
 
+.description-section p {
+    margin-bottom: 1.5rem;
+}
+
 .media-section {
     background-color: #e5ecfb;
     padding: 1rem 0; /* 3 was the former */
