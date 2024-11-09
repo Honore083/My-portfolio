@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Honore Mugiraneza</h1>
 <h3 align="center">A passionate frontend developer from Rwanda</h3>
 
-- 👨‍💻 All of my projects are available at [ishimwe-karamage-yves.vercel.app](ishimwe-karamage-yves.vercel.app)
+- 👨‍💻 All of my projects are available at [Honore-Mugiraneza.vercel.app]((https://myamazingportfolio-smoky.vercel.app/))
 
 - 💬 Ask me about **Frontend Development, Backend Development, FullStack Development**
 
 - 📫 How to reach me **hmugiraneza28@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1_SD8yObIOz1eSnTxtKEdqu_QpEowiJwf/view?usp=drive_link](https://drive.google.com/file/d/1_SD8yObIOz1eSnTxtKEdqu_QpEowiJwf/view?usp=drive_link)
+- 📄 Know about my experiences [https://drive.google.com/file/d/1_SD8yObIOz1eSnTxtKEdqu_QpEowiJwf/view?usp=drive_link]((https://drive.google.com/file/d/1JzzORQfiy-y8l_lKZE-63Kt2u9MhCx_5/view?usp=sharing))
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
